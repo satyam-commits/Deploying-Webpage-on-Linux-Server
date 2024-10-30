@@ -1,0 +1,30 @@
+STEPS:
+1-First of All after opening our virtual machine i run an update:
+
+Command: sudo apt-get update
+
+2-Then we install the webserver for hosting:
+
+Command: sudo apt install httpd
+
+3-To boot and enable the apache HTTP server:
+
+Command: sudo systemctl start httpd
+         sudo systemctl enable httpd
+
+4. To check the status of Apache Server
+
+ Command: sudo systemctl status httpd
+
+5. Navigate to the Apache's Web Directory 
+
+ Command: cd /var/www/html
+
+6. Create an html file as index.html and upload your code in it
+ 
+ Command: touch index.html
+
+7. Open a browser and enter http://localhost
+
+You should see the calculator interface displayed on the webpage.
+         
